@@ -1,0 +1,44 @@
+# Môi trường ảo (Virtual Environments)
+.venv/
+venv/
+env/
+ENV/
+
+# Byte-compiled / tối ưu hóa (File chạy tạm của Python)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Phân phối / Đóng gói (Distribution / Packaging)
+dist/
+build/
+*.egg-info/
+
+# Thư viện cài đặt thêm (nếu có folder chứa module riêng)
+# Thường là kết quả của 'pip install -t lib/'
+lib/
+
+# Biến môi trường (Chứa mật khẩu, API key - Cực kỳ quan trọng)
+.env
+
+### VS Code ###
+.vscode/
+*.code-workspace
+.history/
+
+### PyCharm (JetBrains) ###
+.idea/
+*.iws
+out/
+
+### Sublime Text ###
+*.sublime-project
+*.sublime-workspace
+sftp-config.json
+
+### Linux (bao gồm Pop!_OS) ###
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
